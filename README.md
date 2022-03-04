@@ -1,2 +1,2 @@
 # LinguagemC
-Códigos de programas usando a Linguagem C
+Aplicando os conhecimentos de logica de programacao usando a Linguagem C
