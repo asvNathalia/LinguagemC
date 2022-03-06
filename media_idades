@@ -1,0 +1,28 @@
+# inclui  < stdio.h >
+
+int  main (){
+    int idade, npessoas;
+    soma dupla , mídia;
+
+    printf ( " Digite as idades: \n " );
+    scanf ( " %d " , &idade);
+
+    if (idade < 0 ) {
+        printf ( " CÁLCULO IMPOSSÍVEL \n " );
+    }
+    senão {
+		soma = 0 ;
+		pessoas = 0 ;
+        while (idade >= 0 ) {
+            soma = soma + idade;
+            npessoas++;
+            scanf ( " %d " , &idade);
+        }
+
+        mídia = soma / npessoas;
+
+		printf ( " MÍDIA = %.2lf \n " , mídia);
+    }
+
+	retorna  0 ;
+}
